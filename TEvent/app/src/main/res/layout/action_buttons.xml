@@ -40,7 +40,7 @@
 
         />
 
-    <!-- Back button -->
+    <!-- Add button -->
     <ImageButton
         style="@style/ActionButtonIcon"
         android:contentDescription="@string/desc"
