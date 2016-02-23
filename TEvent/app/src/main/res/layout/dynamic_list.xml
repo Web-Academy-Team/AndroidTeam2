@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- The layout for the dynamic ListView -->
+<FrameLayout
+    android:clickable="true"
+    android:id="@+id/content_frame"
+    android:layout_width="290dp"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:layout_gravity="start"
+    android:fitsSystemWindows="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- The dynamic ListView -->
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listfeed"
+        android:cacheColorHint="@android:color/transparent"
+        android:listSelector="@drawable/activated_background"
+    />
+</FrameLayout>
