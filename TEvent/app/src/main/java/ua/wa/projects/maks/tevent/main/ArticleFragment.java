@@ -12,6 +12,7 @@ import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
@@ -108,6 +109,19 @@ public class ArticleFragment extends Fragment {
                 share();
             }
         };
+
+        ImageButton button_continue_reading2 = (ImageButton) rootView.findViewById(R.id.button_add);
+
+        //this is the method to handle the continue reading button click
+        View.OnClickListener listener_forward2 = new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Toast.makeText(getContext(),"Ok",Toast.LENGTH_SHORT).show();
+
+            }
+        };
+        button_continue_reading2.setOnClickListener(listener_forward2);
 
         //set Share listener
         button_share.setOnClickListener(listener_share);
