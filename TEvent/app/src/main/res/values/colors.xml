@@ -1,12 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#b53f41</color>
-    <color name="colorPrimaryDark">#9f3034</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary2">#b53f41</color>
+    <color name="colorPrimaryDark2">#9f3034</color>
+    <color name="colorAccent2">#FF4081</color>
     <color name="colorWhite">#ffffff</color>
     <color name="titles_color">@color/colorPrimary</color>
     <color name="subtitles_color">#a1a1a1</color>
     <color name="refresh_color">@color/dialog_title</color>
     <color name="dialog_title">#EF5350</color>
     <color name="text_color">#4e4e4e</color>
+
+    <color name="colorPrimary">#FFE33941</color>
+    <color name="colorPrimaryDark">#c5c5c5</color>
+    <color name="colorGrey">#c5c5c5</color>
+    <color name="colorGrey2">#cccccc</color>
+    <color name="colorGrey3">#f7f7f7</color>
+    <color name="colorAccent">#02b833</color>
+    <color name="colorBlack">#3b3b3b</color>
+    <color name="colorBraun">#cd9365</color>
+    <color name="colorCoral1">#c41027</color>
+    <color name="colorCoral2">#e53536</color>
+    <color name="colorCoral3">#de5e3b</color>
+    <color name="colorCoral4">#ee9d54</color>
+    <color name="colorCoral0">#ed5564</color>
+
+
+
 </resources>
